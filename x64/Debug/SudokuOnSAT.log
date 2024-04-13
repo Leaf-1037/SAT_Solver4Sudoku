@@ -1,0 +1,107 @@
+﻿SAT.obj : error LNK2005: "bool __cdecl CNF_Load(struct cnf *,struct _iobuf *,struct watchedList *,struct satAnswer *)" (?CNF_Load@@YA_NPEAUcnf@@PEAU_iobuf@@PEAUwatchedList@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "bool __cdecl CheckResultsIsCorrect(struct cnf *,struct satAnswer *)" (?CheckResultsIsCorrect@@YA_NPEAUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "bool __cdecl DPLL(struct cnf *,struct satAnswer *,struct watchedList *,int,int)" (?DPLL@@YA_NPEAUcnf@@PEAUsatAnswer@@PEAUwatchedList@@HH@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl Ending_print(void)" (?Ending_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl Error_print(int)" (?Error_print@@YAXH@Z) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "int __cdecl Return_Handle(char * const)" (?Return_Handle@@YAHQEAD@Z) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl SAT_disp_print(void)" (?SAT_disp_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "int __cdecl SimplifySAT(struct cnf *,int,struct watchedList *,struct satAnswer *,int)" (?SimplifySAT@@YAHPEAUcnf@@HPEAUwatchedList@@PEAUsatAnswer@@H@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl Sudoku_print(int * const,int * const,int)" (?Sudoku_print@@YAXQEAH0H@Z) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl Sudoku_print(int * const,int)" (?Sudoku_print@@YAXQEAHH@Z) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl TEST_CNF_IS_RIGHT(struct cnf,struct satAnswer *)" (?TEST_CNF_IS_RIGHT@@YAXUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl colorNumber_print(int,int,int)" (?colorNumber_print@@YAXHHH@Z) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "int __cdecl get_Main_Operater(void)" (?get_Main_Operater@@YAHXZ) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl header_print(int)" (?header_print@@YAXH@Z) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl help_print(void)" (?help_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl init_Sat(struct cnf *,struct satAnswer *,struct watchedList *)" (?init_Sat@@YAXPEAUcnf@@PEAUsatAnswer@@PEAUwatchedList@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "bool __cdecl isClauseSatisfied(struct cnf *,struct clause *,struct satAnswer *)" (?isClauseSatisfied@@YA_NPEAUcnf@@PEAUclause@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "bool __cdecl isCnfSatisfied(struct cnf *,struct satAnswer *)" (?isCnfSatisfied@@YA_NPEAUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "bool __cdecl isUnitClause(struct clause *)" (?isUnitClause@@YA_NPEAUclause@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl mainDisplay_print(void)" (?mainDisplay_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "double __cdecl power2(int)" (?power2@@YANH@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl pre_init_Watched_List(struct watchedList *)" (?pre_init_Watched_List@@YAXPEAUwatchedList@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl printAnswer(struct satAnswer)" (?printAnswer@@YAXUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "void __cdecl printProgress(int)" (?printProgress@@YAXH@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "int __cdecl selectVar(struct cnf,struct satAnswer)" (?selectVar@@YAHUcnf@@UsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "int __cdecl selectVar_Optimized(struct cnf *,struct satAnswer *,struct watchedList *)" (?selectVar_Optimized@@YAHPEAUcnf@@PEAUsatAnswer@@PEAUwatchedList@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "struct clause * __cdecl singleClause(struct cnf *,struct satAnswer *)" (?singleClause@@YAPEAUclause@@PEAUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "int cntAnswerNum" (?cntAnswerNum@@3HA) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "double progress_cnf" (?progress_cnf@@3NA) 已经在 CNFparser.obj 中定义
+SAT.obj : error LNK2005: "char (* Handle_INST)[257]" (?Handle_INST@@3PAY0BAB@DA) 已经在 Display_opt.obj 中定义
+SAT.obj : error LNK2005: "struct satAnswer Ans" (?Ans@@3UsatAnswer@@A) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "bool __cdecl CNF_Load(struct cnf *,struct _iobuf *,struct watchedList *,struct satAnswer *)" (?CNF_Load@@YA_NPEAUcnf@@PEAU_iobuf@@PEAUwatchedList@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "bool __cdecl CheckResultsIsCorrect(struct cnf *,struct satAnswer *)" (?CheckResultsIsCorrect@@YA_NPEAUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "bool __cdecl DPLL(struct cnf *,struct satAnswer *,struct watchedList *,int,int)" (?DPLL@@YA_NPEAUcnf@@PEAUsatAnswer@@PEAUwatchedList@@HH@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl Ending_print(void)" (?Ending_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl Error_print(int)" (?Error_print@@YAXH@Z) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "int __cdecl Return_Handle(char * const)" (?Return_Handle@@YAHQEAD@Z) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl SAT_disp_print(void)" (?SAT_disp_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "int __cdecl SimplifySAT(struct cnf *,int,struct watchedList *,struct satAnswer *,int)" (?SimplifySAT@@YAHPEAUcnf@@HPEAUwatchedList@@PEAUsatAnswer@@H@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl Sudoku_print(int * const,int * const,int)" (?Sudoku_print@@YAXQEAH0H@Z) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl Sudoku_print(int * const,int)" (?Sudoku_print@@YAXQEAHH@Z) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl TEST_CNF_IS_RIGHT(struct cnf,struct satAnswer *)" (?TEST_CNF_IS_RIGHT@@YAXUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl colorNumber_print(int,int,int)" (?colorNumber_print@@YAXHHH@Z) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "int __cdecl get_Main_Operater(void)" (?get_Main_Operater@@YAHXZ) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl header_print(int)" (?header_print@@YAXH@Z) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl help_print(void)" (?help_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl init_Sat(struct cnf *,struct satAnswer *,struct watchedList *)" (?init_Sat@@YAXPEAUcnf@@PEAUsatAnswer@@PEAUwatchedList@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "bool __cdecl isClauseSatisfied(struct cnf *,struct clause *,struct satAnswer *)" (?isClauseSatisfied@@YA_NPEAUcnf@@PEAUclause@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "bool __cdecl isCnfSatisfied(struct cnf *,struct satAnswer *)" (?isCnfSatisfied@@YA_NPEAUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "bool __cdecl isUnitClause(struct clause *)" (?isUnitClause@@YA_NPEAUclause@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl mainDisplay_print(void)" (?mainDisplay_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "double __cdecl power2(int)" (?power2@@YANH@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl pre_init_Watched_List(struct watchedList *)" (?pre_init_Watched_List@@YAXPEAUwatchedList@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl printAnswer(struct satAnswer)" (?printAnswer@@YAXUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "void __cdecl printProgress(int)" (?printProgress@@YAXH@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "int __cdecl selectVar(struct cnf,struct satAnswer)" (?selectVar@@YAHUcnf@@UsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "int __cdecl selectVar_Optimized(struct cnf *,struct satAnswer *,struct watchedList *)" (?selectVar_Optimized@@YAHPEAUcnf@@PEAUsatAnswer@@PEAUwatchedList@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "struct clause * __cdecl singleClause(struct cnf *,struct satAnswer *)" (?singleClause@@YAPEAUclause@@PEAUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "int cntAnswerNum" (?cntAnswerNum@@3HA) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "double progress_cnf" (?progress_cnf@@3NA) 已经在 CNFparser.obj 中定义
+sudoku.obj : error LNK2005: "char (* Handle_INST)[257]" (?Handle_INST@@3PAY0BAB@DA) 已经在 Display_opt.obj 中定义
+sudoku.obj : error LNK2005: "struct satAnswer Ans" (?Ans@@3UsatAnswer@@A) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "bool __cdecl CNF_Load(struct cnf *,struct _iobuf *,struct watchedList *,struct satAnswer *)" (?CNF_Load@@YA_NPEAUcnf@@PEAU_iobuf@@PEAUwatchedList@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "bool __cdecl CheckResultsIsCorrect(struct cnf *,struct satAnswer *)" (?CheckResultsIsCorrect@@YA_NPEAUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "bool __cdecl DPLL(struct cnf *,struct satAnswer *,struct watchedList *,int,int)" (?DPLL@@YA_NPEAUcnf@@PEAUsatAnswer@@PEAUwatchedList@@HH@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "void __cdecl Ending_print(void)" (?Ending_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "void __cdecl Error_print(int)" (?Error_print@@YAXH@Z) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "int __cdecl Return_Handle(char * const)" (?Return_Handle@@YAHQEAD@Z) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "void __cdecl SAT(void)" (?SAT@@YAXXZ) 已经在 SAT.obj 中定义
+main.obj : error LNK2005: "void __cdecl SAT_disp_print(void)" (?SAT_disp_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "int __cdecl SimplifySAT(struct cnf *,int,struct watchedList *,struct satAnswer *,int)" (?SimplifySAT@@YAHPEAUcnf@@HPEAUwatchedList@@PEAUsatAnswer@@H@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "void __cdecl Sudoku(void)" (?Sudoku@@YAXXZ) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "void __cdecl Sudoku_play(void)" (?Sudoku_play@@YAXXZ) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "void __cdecl Sudoku_print(int * const,int * const,int)" (?Sudoku_print@@YAXQEAH0H@Z) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "void __cdecl Sudoku_print(int * const,int)" (?Sudoku_print@@YAXQEAHH@Z) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "void __cdecl TEST_CNF_IS_RIGHT(struct cnf,struct satAnswer *)" (?TEST_CNF_IS_RIGHT@@YAXUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "bool __cdecl build2(int,int * const)" (?build2@@YA_NHQEAH@Z) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "bool __cdecl build(int,int * const)" (?build@@YA_NHQEAH@Z) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "void __cdecl colorNumber_print(int,int,int)" (?colorNumber_print@@YAXHHH@Z) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "int __cdecl f(int,int)" (?f@@YAHHH@Z) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "int __cdecl f(int,int,int)" (?f@@YAHHHH@Z) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "void __cdecl generateSudoku(void)" (?generateSudoku@@YAXXZ) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "int __cdecl get_Main_Operater(void)" (?get_Main_Operater@@YAHXZ) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "void __cdecl header_print(int)" (?header_print@@YAXH@Z) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "void __cdecl help_print(void)" (?help_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "void __cdecl init_Sat(struct cnf *,struct satAnswer *,struct watchedList *)" (?init_Sat@@YAXPEAUcnf@@PEAUsatAnswer@@PEAUwatchedList@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "bool __cdecl isClauseSatisfied(struct cnf *,struct clause *,struct satAnswer *)" (?isClauseSatisfied@@YA_NPEAUcnf@@PEAUclause@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "bool __cdecl isCnfSatisfied(struct cnf *,struct satAnswer *)" (?isCnfSatisfied@@YA_NPEAUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "bool __cdecl isLegal(int,int,int *)" (?isLegal@@YA_NHHPEAH@Z) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "bool __cdecl isUnitClause(struct clause *)" (?isUnitClause@@YA_NPEAUclause@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "void __cdecl mainDisplay_print(void)" (?mainDisplay_print@@YAXXZ) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "double __cdecl power2(int)" (?power2@@YANH@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "void __cdecl pre_init_Watched_List(struct watchedList *)" (?pre_init_Watched_List@@YAXPEAUwatchedList@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "void __cdecl printAnswer(struct satAnswer)" (?printAnswer@@YAXUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "void __cdecl printProgress(int)" (?printProgress@@YAXH@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "int __cdecl selectVar(struct cnf,struct satAnswer)" (?selectVar@@YAHUcnf@@UsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "int __cdecl selectVar_Optimized(struct cnf *,struct satAnswer *,struct watchedList *)" (?selectVar_Optimized@@YAHPEAUcnf@@PEAUsatAnswer@@PEAUwatchedList@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "struct clause * __cdecl singleClause(struct cnf *,struct satAnswer *)" (?singleClause@@YAPEAUclause@@PEAUcnf@@PEAUsatAnswer@@@Z) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "void __cdecl swap(int *,int *)" (?swap@@YAXPEAH0@Z) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "int cntAnswerNum" (?cntAnswerNum@@3HA) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "double progress_cnf" (?progress_cnf@@3NA) 已经在 CNFparser.obj 中定义
+main.obj : error LNK2005: "char (* Handle_INST)[257]" (?Handle_INST@@3PAY0BAB@DA) 已经在 Display_opt.obj 中定义
+main.obj : error LNK2005: "int * chess1" (?chess1@@3PAHA) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "int * chess2" (?chess2@@3PAHA) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "double progress" (?progress@@3NA) 已经在 sudoku.obj 中定义
+main.obj : error LNK2005: "struct satAnswer Ans" (?Ans@@3UsatAnswer@@A) 已经在 CNFparser.obj 中定义
+C:\Users\Administrator\source\repos\SudokuOnSAT\x64\Debug\SudokuOnSAT.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
